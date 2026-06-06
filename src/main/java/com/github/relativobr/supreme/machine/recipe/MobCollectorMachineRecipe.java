@@ -17,6 +17,7 @@ import org.bukkit.Material;
 import org.bukkit.entity.LivingEntity;
 import org.bukkit.inventory.ItemStack;
 
+@SuppressWarnings("deprecation")
 public class MobCollectorMachineRecipe extends MachineRecipe implements Predicate<LivingEntity> {
 
   private final Predicate<LivingEntity> predicate;

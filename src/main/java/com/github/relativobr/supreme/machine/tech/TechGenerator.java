@@ -52,6 +52,7 @@ import java.util.Objects;
 import java.util.stream.Collectors;
 
 @Async
+@SuppressWarnings("deprecation")
 public class TechGenerator extends SimpleItemContainerMachine implements Radioactive {
 
   public static final SlimefunItemStack TECH_GENERATOR = new SupremeItemStack(

@@ -45,6 +45,7 @@ import java.util.Map;
 import java.util.Objects;
 
 @Async
+@SuppressWarnings("deprecation")
 public class TechMutation extends SimpleItemContainerMachine implements Radioactive {
 
   public static final SlimefunItemStack TECH_MUTATION_I = new SupremeItemStack("SUPREME_TECH_MUTATION_I",

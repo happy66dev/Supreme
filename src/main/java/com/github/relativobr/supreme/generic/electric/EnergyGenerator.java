@@ -20,6 +20,7 @@ import org.bukkit.Location;
 import org.bukkit.Material;
 import org.bukkit.inventory.ItemStack;
 
+@SuppressWarnings("deprecation")
 public final class EnergyGenerator extends MenuBlock implements EnergyNetProvider {
 
   private int energy;

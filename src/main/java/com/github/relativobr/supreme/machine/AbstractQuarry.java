@@ -46,6 +46,7 @@ import org.bukkit.inventory.Inventory;
 import org.bukkit.inventory.InventoryHolder;
 import org.bukkit.inventory.ItemStack;
 
+@SuppressWarnings("deprecation")
 public class AbstractQuarry extends SlimefunItem implements EnergyNetComponent {
 
   private static final DecimalFormat FORMAT = new DecimalFormat("###,###,##0.00",

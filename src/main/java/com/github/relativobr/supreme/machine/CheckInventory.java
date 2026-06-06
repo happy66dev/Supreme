@@ -45,6 +45,7 @@ import org.bukkit.inventory.ItemStack;
 import org.springframework.scheduling.annotation.Async;
 
 @Async
+@SuppressWarnings("deprecation")
 public class CheckInventory extends SlimefunItem implements InventoryBlock {
 
   public static final SlimefunItemStack CHECK_INVENTORY = new SlimefunItemStack("SUPREME_CHECK_INVENTORY",

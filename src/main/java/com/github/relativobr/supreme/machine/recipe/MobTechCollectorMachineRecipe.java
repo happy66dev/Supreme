@@ -19,6 +19,7 @@ import io.github.thebusybiscuit.slimefun4.libraries.commons.lang.Validate;
 import org.bukkit.entity.LivingEntity;
 import org.bukkit.inventory.ItemStack;
 
+@SuppressWarnings("deprecation")
 public class MobTechCollectorMachineRecipe extends MachineRecipe implements Predicate<LivingEntity> {
 
   private final Predicate<LivingEntity> predicate;

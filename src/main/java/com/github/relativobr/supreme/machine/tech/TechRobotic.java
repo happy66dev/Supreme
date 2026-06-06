@@ -44,6 +44,7 @@ import java.util.Map;
 import java.util.Objects;
 
 @Async
+@SuppressWarnings("deprecation")
 public class TechRobotic extends SimpleItemContainerMachine implements Radioactive {
 
   public static final SlimefunItemStack TECH_ROBOTIC = new SupremeItemStack("SUPREME_TECH_ROBOTIC",

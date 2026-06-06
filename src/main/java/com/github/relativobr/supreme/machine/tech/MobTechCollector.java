@@ -46,6 +46,7 @@ import org.bukkit.inventory.ItemStack;
 import org.springframework.scheduling.annotation.Async;
 
 @Async
+@SuppressWarnings("deprecation")
 public class MobTechCollector extends SimpleItemWithLargeContainerMachine {
 
   public static final SlimefunItemStack MOB_TECH_COLLECTOR_MACHINE_I = new SupremeItemStack(

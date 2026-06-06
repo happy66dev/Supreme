@@ -38,6 +38,7 @@ import org.bukkit.entity.Player;
 import org.bukkit.inventory.ItemStack;
 import org.springframework.scheduling.annotation.Async;
 
+@SuppressWarnings("deprecation")
 @Async
 public class VirtualGarden extends SimpleItemWithLargeContainerMachine {
 

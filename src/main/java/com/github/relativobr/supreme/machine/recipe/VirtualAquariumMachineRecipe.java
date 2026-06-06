@@ -9,6 +9,7 @@ import me.mrCookieSlime.Slimefun.Objects.SlimefunItem.abstractItems.MachineRecip
 import org.bukkit.Material;
 import org.bukkit.inventory.ItemStack;
 
+@SuppressWarnings("deprecation")
 public class VirtualAquariumMachineRecipe extends MachineRecipe {
 
   @ParametersAreNonnullByDefault

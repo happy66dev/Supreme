@@ -9,6 +9,7 @@ import javax.annotation.ParametersAreNonnullByDefault;
 import me.mrCookieSlime.Slimefun.Objects.SlimefunItem.abstractItems.MachineRecipe;
 import org.bukkit.Material;
 
+@SuppressWarnings("deprecation")
 public class VirtualGardenMachineRecipe extends MachineRecipe {
 
   public static final AbstractItemRecipe RECIPE_GARDEN_WHITE_DYE = new AbstractItemRecipe(Material.LILY_OF_THE_VALLEY,

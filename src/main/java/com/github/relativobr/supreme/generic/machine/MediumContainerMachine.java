@@ -42,6 +42,7 @@ import org.bukkit.inventory.ItemStack;
 /**
  * Machine that can use up to 9 items in the input and only 1 item in the output
  */
+@SuppressWarnings("deprecation")
 public class MediumContainerMachine extends AContainer implements NotHopperable, RecipeDisplayItem {
 
   private final Map<Block, MachineRecipe> processing = new HashMap<Block, MachineRecipe>();
