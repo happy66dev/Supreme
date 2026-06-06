@@ -1,5 +1,4 @@
 options:
-  auto-update: true
   use-legacy-supremeexpansion-item-id: false
   lang: zh-CN
   custom-ticker-delay: 2

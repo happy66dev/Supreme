@@ -16,7 +16,6 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.logging.Level;
 
-import net.guizhanss.guizhanlibplugin.updater.GuizhanUpdater;
 import org.bukkit.configuration.ConfigurationSection;
 import org.bukkit.plugin.java.JavaPlugin;
 
@@ -39,7 +38,6 @@ public class Supreme extends JavaPlugin implements SlimefunAddon {
         supremeOptions = SupremeOptions.defaultValue();
       } else {
         supremeOptions = SupremeOptions.builder()
-                .autoUpdate(typeSection.getBoolean("auto-update", true))
                 .useLegacySupremeexpansionItemId(
                     typeSection.getBoolean("use-legacy-supremeexpansion-item-id", false))
                 .lang(typeSection.getString("lang", "zh-CN"))
@@ -154,13 +152,6 @@ public class Supreme extends JavaPlugin implements SlimefunAddon {
       log(Level.SEVERE, "配置文件中 \"options\" 部分缺失, 请检查下载文件的完整性, 并汇报该问题!");
       inst().onDisable();
       return;
-    }
-
-    if (getSupremeOptions().isAutoUpdate() && getDescription().getVersion().startsWith("Build")) {
-      Supreme.inst().log(Level.INFO, "自动更新: 已启用");
-      GuizhanUpdater.start(this, getFile(), "SlimefunGuguProject", "Supreme", "main");
-    } else {
-      Supreme.inst().log(Level.INFO, "自动更新: 已禁用");
     }
 
     // localization

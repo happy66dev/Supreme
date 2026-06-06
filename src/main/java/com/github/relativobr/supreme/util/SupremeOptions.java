@@ -11,7 +11,6 @@ import lombok.Setter;
 @AllArgsConstructor
 public class SupremeOptions {
 
-    boolean autoUpdate;
     boolean useLegacySupremeexpansionItemId;
     String lang;
     int customTickerDelay;
@@ -36,7 +35,6 @@ public class SupremeOptions {
 
     public static SupremeOptions defaultValue() {
         return SupremeOptions.builder()
-                .autoUpdate(true)
                 .useLegacySupremeexpansionItemId(false)
                 .lang("en-US")
                 .customTickerDelay(2)
