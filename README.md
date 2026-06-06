@@ -93,3 +93,7 @@
 ## 魔法资源
 - 五行 - 金木水火土，合成材料
 - 四属性 - 合成材料
+
+## ⭐ Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=happy66dev/Supreme&type=Date)](https://star-history.com/#happy66dev/Supreme&Date)
